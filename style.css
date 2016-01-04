@@ -2,6 +2,7 @@ body {
   font-family: 'calibri', calibri, sans-serif;
   font-weight: 300;
   background-image: url(Spain18.jpg);
+  background-size: 100%;
   background-repeat: repeat;
   border-color: yellow;
   border-style: dashed;
@@ -18,5 +19,6 @@ h1 {
 	text-shadow: 2px 2px 2px black;
 }
 h4 {
-	color: orange;
+	color: black;
+	font-size: 40px;
 }

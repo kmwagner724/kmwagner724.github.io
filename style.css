@@ -8,3 +8,13 @@ body {
   width: 960px;
   margin: 20px auto 20px auto;
 }
+h1 {
+	color: #B13595;
+	font-weight: 600;
+}
+h4 {
+	color: green;
+}
+#summary {
+	color: orange;
+}

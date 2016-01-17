@@ -1,5 +1,5 @@
 body {
-  font-family: "Calibri", "Calibri Light";
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 300;
   background-image: url(blue.jpg);
   background-repeat: repeat;
@@ -11,6 +11,7 @@ body {
 h1 {
 	color: black;
 	font-weight: normal;
+	font-family: 'Lobster', cursive;
 	font-size: 64px;
 	text-shadow: 2px 2px 2px rgba(234, 44, 201, 0.45);
 	text-align: center;
@@ -22,7 +23,8 @@ h2 {
 }
 h4 {
 	color: rgba(234, 44, 201, 0.75);
-	font-size: 30px;
+	font-size: 36px;
+	font-family: 'Lobster', cursive;
 	text-shadow: 4px 4px 4px white;
 }
 h5 {

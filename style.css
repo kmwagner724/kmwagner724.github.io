@@ -13,7 +13,7 @@ h1 {
 	font-weight: normal;
 	font-family: 'Lobster', cursive;
 	font-size: 64px;
-	text-shadow: 2px 2px 2px rgba(234, 44, 201, 0.45);
+	text-shadow: 2px 2px 2px rgba(89, 101, 239, 0.59);
 	text-align: center;
 }
 h2 {
@@ -30,9 +30,8 @@ h4 {
 h5 {
 	color: black;
 	font-size: 18px;
-	font-weight: normal;
-	font-style: italic;
-	text-decoration: underline;
+	font-weight: bold;
+	color: blue;
 }
 #more {
 	color: rgba(0, 100, 255, 0.88);
@@ -40,4 +39,7 @@ h5 {
 }
 .categories {
 	text-align: center;
+}
+.jumbotron {
+	background-color: rgba(64, 58, 74, 0.27;
 }

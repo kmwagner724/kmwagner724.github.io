@@ -3,101 +3,253 @@
 <head>
   <title>Kim Wagner, Student</title>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+
 </head>
 <body>
-  <div id="wrapper">
-    <h1>◦ <i class="fa fa-cutlery"></i> Recipes <i class="fa fa-cutlery" fa-sm></i> ◦</h1>
-    <p>
-      <img src="kim.jpg">
-    </p>
-    <h2>Kimberly Wagner</h2>
-    <h2>Evanston, IL</h2>
-    <div>
+  <div class="container" id="wrapper">
+    <div class="jumbotron">
+      <div class="container-fluid">
+      <h1>◦ <i class="fa fa-cutlery"></i> Recipes <i class="fa fa-cutlery" fa-sm></i> ◦</h1>
+      </div>
+    </div>
+    <div class="col-sm-9">
       <h4 id="soup" class="categories">Soups</h4>
       <h5>Chili</h5>
-      <ul>
-        <li>1/2 lb. ground beef or turkey</li>
-        <li>1 green pepper, chopped</li>
-        <li>1 onion, chopped</li>
-        <li>3 cloves garlic, diced</li>
-        <li>2 large cans chopped tomatoes</li>
-        <li>2-15 oz. canned beans (kidney, black, navy)</li>
-        <li>1/2 can tomato paste</li>
-        <li>1 c. water</li>
-        <li>2T. chili powder</li>
-        <li>1/4 tsp. cayenne pepper</li>
-        <li>1 tsp. dried basil</li>
-        <li>hot sauce</li>
-        <li>salt + pepper</li>
-      </ul>      
+
+    <table class="table table-hover" id="table">
+      <colgroup> <col class="col-xs-1"> <col class="col-xs-7"> </colgroup>
+      <thead>
+        <tr>
+          <th>Measurement</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1/2 lb.</td>
+          <td>ground beef or turkey</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>green pepper, chopped</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>onion, chopped</td>
+        </tr>
+        <tr>
+          <td>3 cloves</td>
+          <td>garlic, chopped</td>
+        </tr>
+        <tr>
+          <td>2 large cans</td>
+          <td>chopped tomatoes</td>
+        </tr>
+        <tr>
+          <td>2-15 oz.</td>
+          <td>canned beans (kidney, back, navy)</td>
+        </tr>
+        <tr>
+          <td>1/2 can</td>
+          <td>tomato paste</td>
+        </tr>
+        <tr>
+          <td>1 c.</td>
+          <td>water</td>
+        </tr>
+        <tr>
+          <td>2 T.</td>
+          <td>chili powder</td>
+        </tr>
+        <tr>
+          <td>1/4 tsp.</td>
+          <td>cayenne pepper</td>
+        </tr>
+        <tr>
+          <td>1 tsp.</td>
+          <td>dried basil</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>hot sauce</td>
+        </tr>   
+        <tr>
+          <td></td>
+          <td>salt + pepper</td>
+        </tr>      
+      </tbody>
+    </table>
       <p>
         Brown ground meat with pepper and onion. Add tomatoes, drained beans + remaining ingredients. Simmer 30 min. Season with salt + pepper to taste.
       </p>
-    </div>
-    <div>
       <h4 id="salad" class="categories">Salads</h4>
       <h5>Healthy Chicken Salad</h5>
-      <ul>
-        <li>2c. grilled chicken, cubed</li>
-        <li>2c. grapes, halved</li>
-        <li>1c. Swiss cheese, juilliened</li>
-        <li>1c. slivered almonds</li>
-        <li>1c. celery, chopped</li>
-        <li>2/3 c. Greek yogurt</li>
-        <li>1.3 c. light mayo</li>
-        <li>salt + pepper</li>
-      </ul>      
+    <table class="table table-hover" id="table">
+      <colgroup> <col class="col-xs-1"> <col class="col-xs-7"> </colgroup>
+      <thead>
+        <tr>
+          <th>Measurement</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2 c.</td>
+          <td>grilled chicken, cubed</td>
+        </tr>
+        <tr>
+          <td>2 c.</td>
+          <td>grapes, halved</td>
+        </tr>
+        <tr>
+          <td>1 c.</td>
+          <td>Swiss cheese, juilliened</td>
+        </tr>
+        <tr>
+          <td>1 c.</td>
+          <td>slivered almonds</td>
+        </tr>
+        <tr>
+          <td>2/3 c.</td>
+          <td>Greek yogurt</td>
+        </tr>
+        <tr>
+          <td>1/3 c.</td>
+          <td>light mayo</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>salt + pepper</td>
+        </tr>      
+      </tbody>
+    </table>    
       <p><storng>
         Combine all ingredients. Season with salt + pepper to taste.
       </p></storng>
       <h5>Cranberry Almond Salad</h5>
-      <ul>
-        <li>1T. olive oil</li>
-        <li>1T. balsamic vinegar</li>
-        <li>1/2 tsp. dijon mustard</li>
-        <li>1 clove garlic, minced</li>
-        <li>1/4 tsp. soy sauce</li>
-        <li>3 c. field greens</li>
-        <li>1/4 c. almonds, slivered</li>
-        <li>1/4 c. craisins</li>
-        <li>1/2 c. shredded farmer's cheese</li>
-      </ul>
+    <table class="table table-hover" id="table">
+      <colgroup> <col class="col-xs-1"> <col class="col-xs-7"> </colgroup>
+      <thead>
+        <tr>
+          <th>Measurement</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1 T.</td>
+          <td>olive oil</td>
+        </tr>
+        <tr>
+          <td>1 T.</td>
+          <td>balsamic vinegar</td>
+        </tr>
+        <tr>
+          <td>1/2 tsp.</td>
+          <td>dijon mustard</td>
+        </tr>
+        <tr>
+          <td>1 clove</td>
+          <td>garlic, minced</td>
+        </tr>
+        <tr>
+          <td>1/4 tsp.</td>
+          <td>soy sauce</td>
+        </tr>
+        <tr>
+          <td>3 c.</td>
+          <td>field greens</td>
+        </tr>
+        <tr>
+          <td>1/4 c.</td>
+          <td>almonds, slivered</td>
+        </tr>
+        <tr>
+          <td>1/4 c.</td>
+          <td>raisins</td>
+        </tr>
+        <tr>
+          <td>1/2 c. shredded farmer's cheese
+        </tr>
+      </tbody>
+    </table>
       <p><storng>
         Mix first 5 ingredients for dressing. Toss into greens + walnuts + craisins + chees
       </p></storng>      
-    </div>
-    <div>
       <h4 id="entrees" class="categories">Entrees</h4>
       <h5>Enchiladas</h5>
-      <ul>
-        <li>1T. tomato paste</li>
-        <li>1/4c. flour</li>
-        <li>3T. chili powder</li>
-        <li>1 1/2 tsp. salt</li>
-        <li>1/4 tsp. pepper</li>
-        <li>4 c. water</li>
-        <li>1 lb. boneless skinless chicken</li>
-        <li>8 oz. cheddar cheeese, shredded</li>
-        <li>1 yellow onion, diced</li>
-        <li>8 medium-sized flour tortillas</li>
-      </ul>
+    <table class="table table-hover" id="table">
+      <colgroup> <col class="col-xs-1"> <col class="col-xs-7"> </colgroup>
+      <thead>
+        <tr>
+          <th>Measurement</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1 T.</td>
+          <td>tomato paste</td>
+        </tr>
+        <tr>
+          <td>1/4 c.</td>
+          <td>flour</td>
+        </tr>
+        <tr>
+          <td>3 T.</td>
+          <td>chili powder</td>
+        </tr>
+        <tr>
+          <td>1 1/2 tsp.</td>
+          <td>salt</td>
+        </tr>
+        <tr>
+          <td>1/4 tsp.</td>
+          <td>pepper</td>
+        </tr>
+        <tr>
+          <td>4 c.</td>
+          <td>water</td>
+        </tr>
+        <tr>
+          <td>1 lb.</td>
+          <td>boneless skinless chicken breast</td>
+        </tr>
+        <tr>
+          <td>8 oz.</td>
+          <td>cheddar cheese, shredded</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>yellow onion, diced</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>medium-sized flour tortillas</td>
+        </tr>
+      </tbody>
+    </table>
       <p>
         <em>SAUCE:</em> Brown tomato paste in sauce pan on MH. Mix dry ingredients separately and slowly whisk in cold water. Add water + dry ingredient mixture to sauce pan and whisk into paste. Stir constantly on MH/M until sauce boils + thickens. 
         <em>ENCHILADAS:</em> Bake chicken and shred with forks; set aside. Brown onion in large pan; mix in half of the enchilada sauce and all of the pulled chicken. Roll tortillas with chicken mixture + cheese. Spoon some enchilada sauce into bottom of pan, arrange enchiladas, and cover with remaining sauce. Sprinkle w/cheese and cook covered on 425 for 35 minutes. Remove foil for last 5 minutes in oven.
       </p>     
     </div>
     <div>
+    <p>
+      <img src="kim.jpg">
+    </p>
+    <h2>Kimberly Wagner - Evanston, IL</h2>
       <h4 id="more">More Recipes...</h4>
       <p><storng>
-      <i class="fa fa-pinterest-p fa-2x"></i>
-        Check out my </i><a href="https://www.pinterest.com/kimwagner724/recipes">Pinterest</a> board!
+        Check out my <a class="btn btn-default" href="https://www.pinterest.com/kimwagner724/recipes" role="button"><i class="fa fa-pinterest-p fa-2x"></i></a> board!
       </p></storng>
-    </div>    
+    </div>  
   </div>
 </body>
 </html>

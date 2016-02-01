@@ -1,12 +1,19 @@
 body {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 300;
-  background-image: url(blue.jpg);
-  background-repeat: repeat;
+  background-image: url(food.jpg);
+  background-size: 100%;
 }
 #wrapper {
   width: 960px;
   margin: 20px auto 20px auto;
+}
+#about {
+    background-image: url(food.jpg);
+	background-size: 100%;
+}
+#aboutpic {
+	vertical-align: center;
 }
 h1 {
 	color: black;
@@ -36,6 +43,9 @@ h5 {
 #more {
 	color: rgba(0, 100, 255, 0.88);
 	text-align: left;
+}
+#brand {
+	height: 50px;
 }
 .categories {
 	text-align: center;

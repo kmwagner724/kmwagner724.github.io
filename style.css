@@ -20,7 +20,6 @@ h1 {
 	font-weight: 300;
 	font-family: 'Lobster two', bold;
 	font-size: 64px;
-	text-shadow: 2px 2px 2px rgba(89, 101, 239, 0.59);
 	text-align: center;
 }
 h2 {
@@ -36,9 +35,8 @@ h4 {
 }
 h5 {
 	color: black;
-	font-size: 18px;
+	font-size: 24px;
 	font-weight: bold;
-	color: blue;
 }
 #more {
 	color: rgba(0, 100, 255, 0.88);
@@ -46,6 +44,21 @@ h5 {
 }
 #brand {
 	height: 50px;
+}
+#soup { 
+	background-size: 300%;
+}
+#chili {
+	height: 350px;
+}
+#dressing {
+	height: 300px;
+}
+#enchilada {
+	height: 180px;
+}
+.instruction {
+	background-color:#ddd;
 }
 .categories {
 	text-align: center;

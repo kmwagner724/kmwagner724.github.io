@@ -1,21 +1,155 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Weather</title>
+  <title>Kim Wagner, Student</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="style.css">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <script src="weather.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lobster+Two:400,700' rel='stylesheet' type='text/css'>
 </head>
-<body>
-  <div class="container">
-    <h1><i class="fa fa-sun-o"></i> Chicago Weather <i class="fa fa-umbrella"></i></h1>
-    <h3><a href="#" class="btn btn-primary get-the-weather">Get the weather</a></h3>
-    <div class="weather-report"></div>
+
+<body id="dressing">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">  
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">
+        <i class="fa fa-cutlery" fa-sm></i>
+      </a>
     </div>
-  </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">home <span class="sr-only">(current)</span></a></li>
+        <li><a href="about.html">about</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">recipes <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="app.html">appetizers</a></li>
+            <li><a href="soup.html">soup + salad</a></li>
+            <li><a href="entree.html">entrees</a></li>
+            <li class="active"><a href="dressing.html">dressings + sauces</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container" id="wrapper">
+<div class="page-header">
+  <h1>dressings + sauces</h1>
+</div>
+    <div class="row">
+    <div class="col-sm-8">
+      <h5>Mustard vinaigrette</h5>
+
+    <table class="table table-hover" id="table">
+      <colgroup> <col class="col-xs-1"> <col class="col-xs-7"> </colgroup>
+      <thead>
+        <tr>
+          <th>Measurement</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1/2 c.</td>
+          <td>white balsamic vinegar</td>
+        </tr>
+        <tr>
+          <td>1 T.</td>
+          <td>honey</td>
+        </tr>
+        <tr>
+          <td>1 T.</td>
+          <td>Dijon mustard</td>
+        </tr>
+        <tr>
+          <td>1/2 tsp.</td>
+          <td>pepper</td>
+        </tr>
+        <tr>
+          <td>2 tsp.</td>
+          <td>salt</td>
+        </tr>
+        <tr>
+          <td>2 tsp.</td>
+          <td>garlic, minced</td>
+        </tr>
+        <tr>
+          <td>1/2 c.</td>
+          <td>olive oil</td>
+        </tr>
+      </tbody>
+    </table>
+      <p class="instruction">
+        Mix ingredients until thoroughly combined. Chill until serving.
+      </p>
+      </div>
+      <div>
+    <p>
+      <img id="dressing" src="dressing.jpg">
+    </p>
+      </div>
+
+    <div class="row">
+    <div class="col-sm-9"> 
+      <h5>Enchilada sauce</h5>
+    <table class="table table-hover" id="table">
+      <colgroup> <col class="col-xs-1"> <col class="col-xs-7"> </colgroup>
+      <thead>
+        <tr>
+          <th>Measurement</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1 T.</td>
+          <td>tomato paste</td>
+        </tr>
+        <tr>
+          <td>1/4 c.</td>
+          <td>flour</td>
+        </tr>
+        <tr>
+          <td>3 T.</td>
+          <td>chili powder</td>
+        </tr>
+        <tr>
+          <td>1 1/2 tsp.</td>
+          <td>salt</td>
+        </tr>
+        <tr>
+          <td>1/4 tsp.</td>
+          <td>pepper</td>
+        </tr>
+        <tr>
+          <td>4 c.</td>
+          <td>water</td>
+        </tr>
+        <tr>
+      </tbody>
+    </table>    
+      <p class="instruction"><storng>
+        Brown tomato paste in sauce pan on MH. Mix dry ingredients separately and slowly whisk in cold water. Add water + dry ingredient mixture to sauce pan and whisk into paste. Stir constantly on MH/M until sauce boils + thickens. 
+      </p></storng>
+</div>
+</div>
+</div>
+
 </body>
 </html>

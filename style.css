@@ -17,8 +17,8 @@ body {
 }
 h1 {
 	color: black;
-	font-weight: normal;
-	font-family: 'Lobster', cursive;
+	font-weight: 300;
+	font-family: 'Lobster two', bold;
 	font-size: 64px;
 	text-shadow: 2px 2px 2px rgba(89, 101, 239, 0.59);
 	text-align: center;
@@ -31,7 +31,7 @@ h2 {
 h4 {
 	color: rgba(234, 44, 201, 0.75);
 	font-size: 36px;
-	font-family: 'Lobster', cursive;
+	font-family: 'Lobster Two', normal;
 	text-shadow: 4px 4px 4px white;
 }
 h5 {

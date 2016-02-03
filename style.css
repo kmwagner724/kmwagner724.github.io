@@ -25,14 +25,15 @@ h2 {
 }
 h4 {
 	color: rgba(234, 44, 201, 0.75);
-	font-size: 36px;
-	font-family: 'Lobster Two', normal;
-	text-shadow: 4px 4px 4px white;
+	font-family: 'Lobster two', bold;
+	font-size: 24px;
+	font-weight: normal;
 }
 h5 {
 	color: black;
-	font-size: 24px;
-	font-weight: bold;
+	font-family: 'Lobster two', bold;
+	font-size: 32px;
+	font-weight: normal;
 }
 #more {
 	color: rgba(0, 100, 255, 0.88);
@@ -55,6 +56,9 @@ h5 {
 }
 #enchilada {
 	height: 180px;
+}
+#taco {
+	height: 250px;
 }
 #more {
 	font-size: 24px;
